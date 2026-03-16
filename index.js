@@ -2,7 +2,7 @@ const http = require('http');
 const requestListener = (req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello Worl from DevOps Lab!\n');
+    res.end('Hello World from DevOps Lab!\n');
 };
 
 const app = http.createServer(requestListener);
